@@ -5,7 +5,7 @@ metadata: #이름, 라벨
 spec:
   containers:
     - name: test
-      image: rapa.iptime.org:5000/nginx:latest
+      image: rapa.iptime.org:5000/nginx:oolr
 
 ---
 
