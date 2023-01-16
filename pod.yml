@@ -2,13 +2,14 @@ apiVersion: v1
 kind: Pod #오브젝트 명시
 metadata: #이름, 라벨
   name: test
+  labels:
+    app: test 
 spec:
   containers:
     - name: test
       image: rapa.iptime.org:5000/nginx:oolr
 
 ---
-
 apiVersion: v1
 kind: Service
 metadata:
